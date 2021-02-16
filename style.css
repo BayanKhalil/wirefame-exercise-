@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    
+}
+
+.head  {
+    background-color: dimgrey;
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px 0 10px 50px;
+    width: 90%;
+}
+nav {
+    display: inline-block;
+    
+    text-align: center;
+
+}
+ul{
+    text-align: center;
+    
+}
+li{
+    margin: 50px;
+    display: inline-block;
+    
+
+}
+.head nav ul li a{
+    text-decoration: none;
+    
+}
+section{
+    text-align: center;
+    width: 50%;
+    margin-left: 170px;
+}
+.row{
+    display: flex;
+}
+.column {
+    padding-inline: inherit;
+    flex: 33.33%;
+    padding: 8px;
+    margin-right: 10px;
+  }
+  .alone{
+    text-align: center;
+    margin-left: 170px;
+    width: 30%;
+
+  }
+.third-part{
+
+    width: 50%;
+    margin-right: 40px;
+    float: right;
+    text-align: justify;
+    padding-right: 150px;
+
+
+
+}
+   
+.third-part button{
+    border-radius: 15px;
+}
+footer{
+    text-align: center;  
+    /* width:100; */
+}
+footer img {
+    width:100%;
+}
+section img {
+    text-align: center;
+} 
+
+    
